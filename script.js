@@ -31,10 +31,9 @@ setInterval(function(){
     hours=date.getHours()
     minutes=date.getMinutes()
     seconds=date.getSeconds()
-    if(hours==0){
+    if(hours==0)
         daysCount++
-        hours=24*daysCount
-    }
+    hours=(daysCount*24)+hours
     rotateOfHands()
 },1000)
 
