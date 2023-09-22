@@ -169,7 +169,7 @@ body{
 .hours{
     position: absolute;
     z-index: 7;
-    transform-origin: left;
+    transform-origin: bottom;
     transform:translate(-50%,-50%);
     width:11px ;
     height:59px ;
@@ -182,7 +182,7 @@ body{
 .minutes{
     position: absolute;
     z-index: 8;
-    transform-origin:left ;
+    transform-origin:bottom;
    transform: translate(-50%,-50%);
     width:5px ;
     height:78px ;
@@ -195,7 +195,7 @@ body{
 .seconds{
     position: absolute;
     z-index: 9;
-    transform-origin: left;
+    transform-origin: bottom;
   transform: translate(-50%,-50%);
     width: 3px;
     height: 93px;
