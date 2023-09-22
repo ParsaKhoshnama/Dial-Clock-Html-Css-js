@@ -169,39 +169,38 @@ body{
 .hours{
     position: absolute;
     z-index: 7;
-    top:50%;
     transform-origin: left;
-    transform: translate(-50%,-50%) rotate(80deg);
-    right: 75px;
-    width: 59px;
-    height: 11px;
+    transform:translate(-50%,-50%);
+    width:11px ;
+    height:59px ;
     border-radius: 10px;
-    background-image: linear-gradient(to right,rgba(255,255,255,0.36) 12.6px,rgba(255,255,255,0.27) 19px);
-
+    background-image: linear-gradient(to top,rgba(255,255,255,0.36) 12.6px,rgba(255,255,255,0.27) 19px);
+    right: calc(50% - 11px);
+    top: 136px;
 }
 
 .minutes{
     position: absolute;
     z-index: 8;
-    top: 50%;
     transform-origin:left ;
-    transform: translate(-50%,-50%) rotate(170deg);
-    right:48px;
-    width: 78px;
-    height:5px ;
+   transform: translate(-50%,-50%);
+    width:5px ;
+    height:78px ;
     border-radius: 10px;
-    background-image: linear-gradient(to right ,rgba(255,255,255,0.36) 16.3px,rgba(255,255,255,0.27) 24.5px);
+    background-image: linear-gradient(to top ,rgba(255,255,255,0.36) 16.3px,rgba(255,255,255,0.27) 24.5px);
+    right: calc(50% - 5px);
+    top:125px;
 }
 
 .seconds{
     position: absolute;
     z-index: 9;
-    top: calc(50% - 2px);
     transform-origin: left;
-    transform: translate(-50%,-50%) rotate(-7deg);
-    right: 22px;
-    height: 3px;
-    width: 93px;
+  transform: translate(-50%,-50%);
+    width: 3px;
+    height: 93px;
     border-radius: 10px;
-    background-image: linear-gradient(to right,rgba(255, 255, 255,0.36) 20px,rgba(255,255,255,0.27) 30px);
+    background-image: linear-gradient(to top,rgba(255, 255, 255,0.36) 20px,rgba(255,255,255,0.27) 30px);
+  right:calc(50% - 3px);
+  top:116px ;
 }
