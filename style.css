@@ -183,7 +183,7 @@ body{
     position: absolute;
     z-index: 8;
     transform-origin:bottom;
-   transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     width:5px ;
     height:78px ;
     border-radius: 10px;
@@ -196,7 +196,7 @@ body{
     position: absolute;
     z-index: 9;
     transform-origin: bottom;
-  transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     width: 3px;
     height: 93px;
     border-radius: 10px;
