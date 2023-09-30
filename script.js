@@ -26,7 +26,7 @@ hoursElement.style.transition='transform 0.000001ms'
 },0.001)
 
 setInterval(function(){
-    delete date
+    delete date.getVarDate
     date=new Date()
     hours=date.getHours()
     minutes=date.getMinutes()
